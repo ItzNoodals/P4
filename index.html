@@ -1,0 +1,90 @@
+<!-- DEVELOPER: James Monroig, IS117-003, Fall 2026 -->
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P4 - Baseball Website</title>
+	<link rel="icon" href="Images/Website_Head_Logo.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">   
+	<link rel="stylesheet" href="Styles/main.css">
+  </head>
+
+  <body>
+    <header>
+    	<img src="images/Website_Head_Logo.jpg" alt="Website Logo">
+		<h2>Everything about Baseball</h2>
+		<h3>From the Past to the Present</h3>
+    </header>
+
+    <nav class="navbar">
+		<ul class="menu">
+
+			<li><a class="current">Home</a></li>
+
+			<li class="submenu">
+				<a href="teams.html">Past and Current Teams<small>&#9660;</small></a>
+				<ul class="dropdown">
+					<li><a href="pastStandings.html">Past Standings</a></li>
+					<li><a href="currentStandings.html">Current Standings</a></li>
+				</ul>
+			</li>
+
+			<li class="submenu">
+				<a href="history.html">History of Baseball<small>&#9660;</small></a>
+				<ul class="dropdown">
+					<li><a href="rules.html">Rules</a></li>
+				</ul>
+			</li>
+
+			<li class="submenu">
+				<a href="moments.html">Historical Moments<small>&#9660;</small></a>
+				<ul class="dropdown">
+					<li><a href="players.html">Notable Players</a></li>
+				</ul>
+			</li>
+
+			<li><a href="contact.html">Contact</a></li>
+
+		</ul>
+	</nav>
+  
+	<main>
+		<section>
+			<div class="card align-items-center mx-auto" style="width: 850px; max-width: 100%;">
+  				<img src="images/MLB_Logo.png" class="mt-3" alt="Baseball Logo">
+  				<div class="card-body text-center">
+    				<h5 class="card-title">What our Website offers</h5>
+    				<p class="card-text">
+						Our website is meant for people to get into the game of baseball and to learn how it came to be.
+						We want to show how the past made what baseball is today. 
+						We do this by showing all the past teams that were created and how they transitioned into the teams we have now. 
+						<br>
+						<br>
+						Past and current standings to show how the league was split up amoungst each other and how the number of teams grew. 
+						Historical moments and notable players that shaped baseball. 
+						Current rules of baseball to have people understand how the game is palyed. 
+						<br>
+						<br>
+						Baseball is America's past time and we want to show why that statement is what it is today.
+					</p>
+  				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="border-top mt-auto py-4 text-white">
+  		<div class="container d-flex flex-wrap justify-content-between align-items-center gap-3 small">
+    		<div class="d-flex align-items-center gap-3">
+      			<a class="link-light text-decoration-none" href="#">Privacy Statement</a>
+      			<a class="link-light text-decoration-none" href="#">Terms and Conditions</a>
+    		</div>
+			<div class="d-flex align-items-center gap-2 text-body-secondary">
+      			<span class="text-white">&copy; James Monroig, 12/01/26</span>
+	    	</div>
+ 		</div>
+	</footer>
+  </body>
+</html> 
